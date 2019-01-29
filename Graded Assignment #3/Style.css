@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    float:right;
+    padding: 10px;
+    text-align: right;
+    font-size: 32px;
+    color: black;
+    background: white;
+    width: 50%;
+
+}
+
+nav {
+    float: left;
+    width: 46%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    text-align:;
+}
+
+div.sticky {
+  position: sticky;
+  bottom: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 2px solid (0.5);
+}
+
+content {
+    float: right;
+    padding: 20px;
+    width: 500%;
+    height: 500px;
+    color: white;
+
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: lightgrey;}
+
+table{
+    background: navy;
+    color: white;
+    object-fit: fill;
+}
+
+</style>
+</head>
+</html>

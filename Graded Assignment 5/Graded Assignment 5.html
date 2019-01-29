@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			
+			function startImg() {
+				topPos = Math.random() * 600;
+				document.getElementById('divClickMe').style.top = topPos + 'px';
+				leftPos = Math.random() * 600;
+				document.getElementById('divClickMe').style.left = leftPos + 'px';
+			}
+
+			function moveImg() {
+				newTopPos = Math.random() * 600;
+				document.getElementById('divClickMe').style.top = newTopPos + 'px';
+				newLeftPos = Math.random() * 600;
+				document.getElementById('divClickMe').style.left = newLeftPos + 'px';
+			}
+
+		</script>
+	</head>
+	<body onload = "startImg();">
+		
+		<div id='divClickMe' style='position:absolute; top:800px; left:800px;'>
+			<img src='https://www.iconspng.com/uploads/finger-click/finger-click.png' height='100' width='100' onClick='moveImg();'>
+		</div>
+
+	</body>
+</html>
